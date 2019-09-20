@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+}
+/*denne div er en flex-container*/
+.monsterdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 1200px;
+    align-items: flex-start;
+}
+/* # refererer til ID*/
+#kasse1 {
+    background-color: #ddd;
+    width: 50%;
+}
+#kasse2 {
+    background-color: burlywood;
+    width: 50%;
+}
+.kasse3 {
+    background-color: orange;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #333;
+}
+.special {
+    order: -1;
+}
+.tilsidst {
+    order: 1;
+}
+/* . punktum refererer til en class. En klasse kan bruges flere gange*/
+.toben {
+    color: red;
+}
+.fireben {color: greenyellow;
+}
+.highlight {
+    background-color: aquamarine;
+}
+        p {
+            display: inline-block;
+        }
